@@ -19,10 +19,6 @@ class Texture {
 
 		bool load_from_file(string path, SDL_Renderer* renderer);
 
-		void set_texture(SDL_Texture* _texture);
-
-		SDL_Texture* get_texture();
-
 		void render(int x, int y, SDL_Renderer* renderer);
 
 		void free();
