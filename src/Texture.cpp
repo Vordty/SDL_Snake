@@ -64,11 +64,3 @@ int Texture::get_width() {
 int Texture::get_height() {
 	return height;
 }
-
-void Texture::set_texture(SDL_Texture* _texture) {
-	texture = _texture;
-}
-
-SDL_Texture* Texture::get_texture() {
-	return texture;
-}
